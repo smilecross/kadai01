@@ -1,0 +1,477 @@
+/*全体　共通
+最初から設定してあるので特に変更
+しなくても大丈夫です♪
+-----------------*/
+body {
+	font-family: Roboto, "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+	line-height: 1.75;
+	font-size: 16px;
+}
+
+img {
+	max-width: 100%;
+	height: 0 auto;
+}
+
+/*　パディングをサイズ内側にする処理　*/
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*ーーーーーーーーーーー*/
+/*この下から記述*/
+/*ーーーーーーーーーーー*/
+
+body {
+	width: 960px;
+	background-position: center;
+	margin: 0 auto;
+}
+
+.box {
+	width: 960;
+	background-position: center;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-size: 24px;
+	color: #ffd61a;
+}
+
+h3 {
+	text-transform: uppercase;
+	font-size: 24px;
+	color: #222222;
+}
+
+/*メインビジュアル
+---------------------*/
+.title_box {
+	background: url(../img/mainbg.png);
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+	color: #fff;
+}
+
+.title_box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.site-title {
+	font-size: 48px;
+	margin: 0 0 40px;
+}
+
+.text-site-box {
+	font-size: 36px;
+}
+
+/*header
+---------------------*/
+.header {
+	background-color: #efefef;
+}
+
+.header-wrapper {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 80px;
+}
+
+.header-wrapper img {
+	width: 110px;
+}
+
+.nav-list {
+	display: flex;
+}
+
+.nav-item {
+	margin: 0 0 0 2.4rem;
+	font-size: 21px;
+}
+
+.nav-item>a {
+	font-size: 16px;
+	color: #222222;
+	text-transform: uppercase;
+}
+
+/*about
+---------------------*/
+.about div {
+	width: 960;
+}
+
+.profile-wrapper {
+	width: 560;
+	margin: 0 auto;
+	padding: 120px 0 80px;
+}
+
+.header_logo {
+	width: 90px;
+	height: auto;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.profile__title {
+	margin: 0 0 24px;
+	font-size: 24px;
+	color: #ffd61a;
+}
+
+.profile__text {
+	margin: 0 0 64px;
+	text-align: center;
+}
+
+.profile__text1 {
+	margin: 0 0 40px;
+	text-align: center;
+}
+
+.profile__text2 {
+	text-align: center;
+}
+
+.profile__text3 {
+	margin: 0 0 80px;
+	text-align: center;
+}
+
+
+/*COURSE
+---------------------*/
+.course {
+	max-width: 960px;
+	margin: auto;
+	padding: 64px 0;
+}
+
+.box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.box img {
+	width: 100%;
+}
+
+.box_item {
+	width: 50%;
+}
+
+.box_item div {
+	width: 100%;
+}
+
+.box_text {
+	justify-content: center;
+	align-items: center;
+	text-align: left;
+	padding: 0 0 0 48px;
+}
+
+.box_text1 {
+	justify-content: center;
+	align-items: center;
+	text-align: left;
+	padding: 0 48px 0 0;
+}
+
+.box_text h3 {
+	padding: 0 0 40px 0;
+}
+
+.course__title {
+	margin: 0 0 24px;
+	font-size: 24px;
+	color: #222222;
+	padding: 64px 0 0;
+}
+
+.course__text {
+	padding: 0 0 64px;
+}
+
+
+
+/*NEWS
+---------------------*/
+.wrapper {
+	max-width: 960px;
+	margin: 64px 0 0;
+}
+
+.news__list {
+	display: flex;
+	margin: 0 0 56;
+}
+
+.news__item {
+	width: 33.333%;
+}
+
+.news__title {
+	margin: 0 0 24px;
+	font-size: 24px;
+}
+
+.news__1 {
+	padding: 56px;
+}
+
+.news__eyecatch {
+	margin: 0 32px 32px;
+}
+
+.news__heading {
+	margin: 0 32px 24px;
+}
+
+.news__text {
+	margin: 0 0 64px;
+	text-align: center;
+}
+
+.news__text1 {
+	margin: 0 32px;
+}
+
+.btn {
+	display: block;
+	width: 300px;
+	margin: auto;
+	padding: 19.5px 0;
+	background-color: #ffd61a;
+	color: #fff;
+	font-size: 21px;
+
+}
+
+.btn__box {
+	padding: 0 0 48px;
+}
+
+/*ACCESS
+---------------------*/
+.access {
+	padding: 64px 0 0 0;
+	background-color: #fafafa;
+}
+
+.access__title {
+	margin: 0 0 24px;
+	font-size: 24px;
+}
+
+.map-wrap {
+	max-width: 100%;
+}
+
+.ac-title {
+	width: ;
+}
+
+.map {
+	width: 100%;
+	height: 0;
+	position: relative;
+	padding-top: 56.25%;
+}
+
+.map iframe {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.access__text {
+	margin: 0 0 64px;
+	text-align: center;
+}
+
+.access__text1 {
+	text-align: center;
+}
+
+.access__text2 {
+	margin: 0 0 80px;
+	text-align: center;
+}
+
+/*ACCESSテキスト
+---------------------*/
+.access-box {
+	width: 960px;
+	background-color: #fafafa;
+	padding: 64px 0 0 0;
+}
+
+.acces-tb {
+	align-items: center;
+	justify-content: center;
+	padding: 0 0 80px 0;
+}
+
+table {
+	table-layout: fixed;
+	width: 560px;
+	text-align: left;
+	margin: auto;
+	background-color: #fafafa;
+}
+
+.mail {
+	padding-bottom: 80px;
+}
+
+.e {
+	width: 280px;
+}
+
+/*CONTACT
+---------------------*/
+.contact-box {
+	width: 560px;
+	text-align: center;
+	margin: auto;
+	padding: 64px 0 0;
+}
+
+.contact__title {
+	margin: 0 0 24px;
+	font-size: 24px;
+	color: #222222;
+}
+
+.contact__text {
+	margin: 0 0 64px;
+	text-align: center;
+}
+
+.contact__text1 {
+	text-align: center;
+}
+
+.course-box-text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact__text2 {
+	margin: 0 0 32px;
+	text-align: center;
+}
+
+.contact__text3 {
+	margin: 0 0 80px;
+	text-align: center;
+}
+
+/*form
+---------------------*/
+.box {
+	width: 960px;
+}
+
+.form-wrapper {
+	width: 560px;
+	text-align: center;
+	margin: auto;
+}
+
+.from-inner dl {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.from-inner dt {
+	width: 112px;
+	flex-shrink: 0;
+
+}
+
+.from-inner dd {
+	width: 328px;
+	flex-shrink: 0;
+}
+
+.name_a {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 24px;
+}
+
+.kana {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 24px;
+}
+
+.f-mail {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 24px;
+}
+
+.motiv {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 24px;
+}
+
+.detail {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 24px;
+}
+
+.chack {
+	display: block;
+}
+
+.btn__box1 {
+	padding: 40px 0 60px;
+}
+
+.btn1 {
+	display: block;
+	width: 298px;
+	margin: auto;
+	padding: 18px 0;
+	background-color: #ffd61a;
+	color: #fff;
+	border: none;
+	font-size: 18px;
+}
+
+/*Copy
+---------------------*/
+.copyrights {
+	text-align: center;
+	background-color: #707070;
+	padding: 32px 0;
+	color: #fff;
+}
